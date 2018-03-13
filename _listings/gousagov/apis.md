@@ -1,0 +1,39 @@
+---
+name: Go.USA.Gov
+description: The Go.USA.gov API can Shorten a URL. Preview the destination of a short
+  URL. Get the number of clicks on a short URL. Export short URLs from an account.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
+x-kinRank: "8"
+x-alexaRank: ""
+tags:
+- Stack Network
+- Federal Government   GSA
+created: "2018-03-13"
+modified: "2018-03-13"
+url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/apis.yaml
+specificationVersion: "0.14"
+apis:
+- name: Go.USA.gov API
+  description: The Go
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
+  humanURL: ""
+  baseURL: https://go.usa.gov//api/
+  tags: URL
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/shorten-json-get.md
+x-common:
+- type: x-blog
+  url: https://go.usa.gov/blog
+- type: x-terms-of-service
+  url: http://www.usa.gov/About/developer-resources/terms-of-service.shtml
+- type: x-twitter
+  url: https://twitter.com/gousagov
+- type: x-website
+  url: https://go.usa.gov
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
