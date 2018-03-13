@@ -21,7 +21,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/clicks-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/export-json-get.md
 x-common:
 - type: x-blog
   url: https://go.usa.gov/blog
