@@ -8,9 +8,9 @@ x-alexaRank: ""
 tags:
 - Stack Network
 - Federal Government   GSA
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Go.USA.gov API
@@ -21,7 +21,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/gousagov/export-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/shorten-json-get.md
 x-common:
 - type: x-blog
   url: https://go.usa.gov/blog
