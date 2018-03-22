@@ -15,9 +15,9 @@ tags:
 - Links
 - Google APIs
 - DNS
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/google-url-shortener/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google URL Shortener API
@@ -28,7 +28,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/google-url-shortener/url-history-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-get.md
 x-common:
 - type: x-developer
   url: https://developers.google.com/url-shortener/
