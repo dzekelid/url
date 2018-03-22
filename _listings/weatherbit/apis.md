@@ -25,7 +25,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-lat-lat-lon-lon-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
