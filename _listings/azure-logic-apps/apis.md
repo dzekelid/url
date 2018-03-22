@@ -29,7 +29,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-triggers-triggername-listcallbackurl-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-versions-versionid-triggers-triggername-listcallbackurl-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
