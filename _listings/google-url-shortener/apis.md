@@ -28,7 +28,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-history-get.md
 x-common:
 - type: x-developer
   url: https://developers.google.com/url-shortener/
