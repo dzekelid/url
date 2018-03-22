@@ -49,7 +49,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/xignite/,-url-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/xignite/,-url,-preset-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
