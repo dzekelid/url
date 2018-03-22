@@ -33,7 +33,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/akamai/ccu-v3-delete-url-network-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/akamai/imaging-v0-images-url-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
