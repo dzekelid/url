@@ -16,9 +16,9 @@ tags:
 - Gaming
 - Games
 - Android
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/google-play/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-play/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
