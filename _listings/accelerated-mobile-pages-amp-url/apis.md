@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Mobile
 - Google APIs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/accelerated-mobile-pages-amp-url/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/accelerated-mobile-pages-amp-url/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Accelerated Mobile Pages (AMP) URL API
@@ -26,7 +26,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/url/master/_listings/accelerated-mobile-pages-amp-url/v1-ampurls-batchget-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/accelerated-mobile-pages-amp-url/v1-ampurls-batchget-post.md
 x-common:
 - type: x-blog
   url: https://amphtml.wordpress.com/
