@@ -15,7 +15,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStreamingURL&k=1:
+  /?Action=CreateStreamingURL:
     get:
       summary: Create Streaming URL
       description: Creates a URL to start an AppStream 2
