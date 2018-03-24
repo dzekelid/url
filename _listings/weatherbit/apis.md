@@ -25,7 +25,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-postal-code-postal-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-city-city-country-country-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
