@@ -26,7 +26,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-get.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
