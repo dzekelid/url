@@ -25,7 +25,7 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-lat-lat-lon-lon-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
