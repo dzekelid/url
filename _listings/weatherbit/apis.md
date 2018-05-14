@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Bulk History Hourly City
-  description: Returns Historical Observations - Given a City ID.
+- name: Weatherbit Get Bulk History Hourly IP
+  description: Returns Historical Observations - Given IP Address, or auto.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-ip-ip-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-city-id-city-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-ip-ip-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
