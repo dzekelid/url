@@ -26,7 +26,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Forecast Hourly IP
+- name: Weatherbit Get Forecast Hourly Lat & Lon
   description: '**(REQUIRED: Developer Plan or Higher)** Returns an hourly forecast,
     where each point represents a one hour period. Every point has a datetime string
     in the format "YYYY-MM-DD:HH". Time is UTC.'
@@ -36,9 +36,9 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-ip-ip-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-lat-lat-lon-lon-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-ip-ip-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-lat-lat-lon-lon-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
