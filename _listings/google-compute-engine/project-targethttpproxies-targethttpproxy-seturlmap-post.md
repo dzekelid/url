@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Target HTTP Proxies URL Map
+  description: Changes the URL map for TargetHttpProxy.
   contact:
     name: Google
     url: https://google.com
