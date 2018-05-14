@@ -27,17 +27,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-targethttpproxies-targethttpproxy-seturlmap-post.md
-- name: Google Compute Engine API Get URL Maps
-  description: Retrieves the list of UrlMap resources available to the specified project.
+- name: Google Compute Engine API Create URL Map
+  description: Creates a UrlMap resource in the specified project using the data included
+    in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-post.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
