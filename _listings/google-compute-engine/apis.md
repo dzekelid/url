@@ -27,16 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-targethttpproxies-targethttpproxy-seturlmap-post.md
-- name: Google Compute Engine API Create URL Map
-  description: Creates a UrlMap resource in the specified project using the data included
-    in the request.
+- name: Google Compute Engine API Delete URL Map
+  description: Deletes the specified UrlMap resource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-delete-postman.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
