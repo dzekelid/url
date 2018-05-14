@@ -29,14 +29,14 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-targethttpproxies-targethttpproxy-seturlmap-post.md
 - name: Google Compute Engine API Update URL Map
   description: Updates the specified UrlMap resource with the data included in the
-    request. This method supports patch semantics.
+    request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png
   humanURL: https://cloud.google.com/compute/
   baseURL: http:://www.googleapis.com//compute/v1/projects
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-compute-engine/project-global-urlmaps-urlmap-put.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/compute/docs/api/libraries
