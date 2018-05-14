@@ -26,17 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Bulk History Hourly Lat & Lon
-  description: Returns Historical Observations - Given a lat, and lon.
+- name: Weatherbit Get Bulk History Hourly Postal Code
+  description: Returns Historical Observations - Given a Postal Code.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-lat-lat-lon-lon-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-postal-code-postal-code-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-lat-lat-lon-lon-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-postal-code-postal-code-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
