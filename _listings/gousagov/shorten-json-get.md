@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Go.USA.gov API
-  description: The Go.USA.gov API can Shorten a URL. Preview the destination of a
-    short URL. Get the number of clicks on a short URL. Export short URLs from an
-    account.
+  title: Go.USA.gov API Shortening a URL
+  description: Shortening a URL
   termsOfService: http://www.usa.gov/About/developer-resources/terms-of-service.shtml
   version: 1.0.0
 host: go.usa.gov
