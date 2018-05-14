@@ -22,17 +22,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/export-json-get.md
-- name: Go.USA.gov API Expand URL
-  description: Expand URL
+- name: Go.USA.gov API URL Clicks
+  description: Get the Number of Clicks on a Short URL
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
   humanURL: https://go.usa.gov
   baseURL: https://go.usa.gov//api/
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/expand-json-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/clicks-json-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/expand-json-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/clicks-json-get-postman.md
 x-common:
 - type: x-blog
   url: https://go.usa.gov/blog
