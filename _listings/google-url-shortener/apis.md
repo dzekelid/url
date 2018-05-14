@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-history-get.md
-- name: Google URL Shortener API Create Short URL
-  description: Creates a new short URL.
+- name: Google URL Shortener API Get URL History
+  description: Retrieves a list of URLs shortened by a user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-shortener.png
   humanURL: https://goo.gl/
   baseURL: http:://www.googleapis.com//urlshortener/v1
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-history-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-history-get-postman.md
 x-common:
 - type: x-developer
   url: https://developers.google.com/url-shortener/
