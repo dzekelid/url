@@ -30,17 +30,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-integrationaccounts-integrationaccountname-listcallbackurl-post.md
-- name: Azure Logic Apps API Workflow Triggers List Callback Url
-  description: Gets the callback URL for a workflow trigger.
+- name: Azure Logic Apps API Workflow Versions List Callback Url
+  description: Lists the callback URL for a trigger of a workflow version.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png
   humanURL: https://azure.microsoft.com/en-us/services/logic-apps/
   baseURL: http:://management.azure.com//
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-triggers-triggername-listcallbackurl-post.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-triggers-triggername-listcallbackurl-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/azure-logic-apps/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-logic-workflows-workflowname-versions-versionid-triggers-triggername-listcallbackurl-post.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/logic-apps/
