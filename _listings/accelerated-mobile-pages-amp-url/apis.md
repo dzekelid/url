@@ -27,7 +27,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/accelerated-mobile-pages-amp-url/v1-ampurls-batchget-post.md
+- name: 'Accelerated Mobile Pages (AMP) URL API '
+  description: |-
+    Returns AMP URL(s) and equivalent
+    [AMP Cache URL(s)](/amp/cache/overview#amp-cache-url-format).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-amp.png
+  humanURL: https://www.ampproject.org/
+  baseURL: http:://acceleratedmobilepageurl.googleapis.com//
+  tags: URL
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/accelerated-mobile-pages-amp-url/v1-ampurls-batchget-post.md
 x-common:
+- type: x-blog
+  url: https://amphtml.wordpress.com/
+- type: x-blog-rss
+  url: https://amphtml.wordpress.com/feed/
+- type: x-developer
+  url: https://developers.google.com/amp/cache/reference/acceleratedmobilepageurl/rest/
+- type: x-github
+  url: https://github.com/ampproject
+- type: x-twitter
+  url: https://twitter.com/amphtml
+- type: x-website
+  url: https://www.ampproject.org/
 - type: x-blog
   url: https://amphtml.wordpress.com/
 - type: x-blog-rss
