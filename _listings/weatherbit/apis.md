@@ -26,17 +26,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Bulk History Hourly Station
-  description: Returns Historical Observations - Given a station ID.
+- name: Weatherbit Get Forecast 3hourly City & Country
+  description: Returns a 3-hourly forecast, where each point represents a three hour   period.
+    Every point has a datetime string in the format "YYYY-MM-DD:HH". Time is UTC.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-station-station-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-city-country-country-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-station-station-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-city-country-country-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
