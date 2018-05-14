@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Create URL Map
+  description: Creates a UrlMap resource in the specified project using the data included
+    in the request.
   contact:
     name: Google
     url: https://google.com
