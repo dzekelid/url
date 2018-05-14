@@ -29,7 +29,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-history-get.md
+- name: Google URL Shortener API Get Short URLs
+  description: Expands a short URL or gets creation time and analytics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-shortener.png
+  humanURL: https://goo.gl/
+  baseURL: http:://www.googleapis.com//urlshortener/v1
+  tags: URL
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/google-url-shortener/url-get-postman.md
 x-common:
+- type: x-developer
+  url: https://developers.google.com/url-shortener/
+- type: x-documentation
+  url: https://developers.google.com/url-shortener/v1/
+- type: x-getting-started
+  url: https://developers.google.com/url-shortener/v1/getting_started
+- type: x-performance
+  url: https://developers.google.com/url-shortener/v1/performance
+- type: x-website
+  url: https://goo.gl/
 - type: x-developer
   url: https://developers.google.com/url-shortener/
 - type: x-documentation
