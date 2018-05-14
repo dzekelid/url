@@ -26,7 +26,7 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Forecast 3hourly City & Country
+- name: Weatherbit Get Forecast 3hourly City
   description: Returns a 3-hourly forecast, where each point represents a three hour   period.
     Every point has a datetime string in the format "YYYY-MM-DD:HH". Time is UTC.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
@@ -35,9 +35,9 @@ apis:
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-city-country-country-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-id-city-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-city-country-country-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-3hourly-city-id-city-id-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
