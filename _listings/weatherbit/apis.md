@@ -26,21 +26,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Forecast Hourly City & Country
+- name: Weatherbit Get Forecast Hourly City
   description: '**(REQUIRED: Developer Plan or Higher)** Returns an hourly forecast,
     where each point represents a one hour   period. Every point has a datetime string
-    in the format "YYYY-MM-DD:HH". Time is UTC. Accepts a city in the format of City,ST
-    or City. The state, and country parameters can be provided to make the search
-    more accurate.'
+    in the format "YYYY-MM-DD:HH". Time is UTC.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-city-city-country-country-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-city-city-country-country-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-city-id-city-id-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
