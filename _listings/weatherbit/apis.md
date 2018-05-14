@@ -26,19 +26,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
-- name: Weatherbit Get Forecast Hourly Postla Code Code
-  description: '**(REQUIRED: Developer Plan or Higher)** Returns an hourly forecast,
-    where each point represents a one hour   period. Every point has a datetime string
-    in the format "YYYY-MM-DD:HH". Time is UTC.'
+- name: Weatherbit Get History Hourly City & Country
+  description: Returns Historical Observations - Given a city in the format of City,ST
+    or City. The state, and country parameters can be provided to make the search
+    more accurate. **(LIMIT 1 day for Low Volume plans. LIMIT 7 days for Basic/Developer.
+    LIMIT 30 days for Advanced/Advanced+/Enterprise)**
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
   humanURL: https://www.weatherbit.io/api
   baseURL: https://api.weatherbit.io//v2.0
   tags: URL
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-postal-code-postal-code-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-city-city-country-country-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/forecast-hourly-postal-code-postal-code-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-city-city-country-country-get-postman.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
