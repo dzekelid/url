@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Accelerated Mobile Pages (AMP) URL
-  description: This API contains a single method, batchGet. Call this method to retrieve
-    the AMP URL (and equivalent AMP Cache URL) for given public URL(s).
+  title: 'Accelerated Mobile Pages (AMP) URL API '
+  description: |-
+    Returns AMP URL(s) and equivalent
+    [AMP Cache URL(s)](/amp/cache/overview#amp-cache-url-format).
   contact:
     name: Google
     url: https://google.com
