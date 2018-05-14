@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: URL Shortener
-  description: Lets you create, inspect, and manage goo.gl short URLs
+  title: Google URL Shortener API Get URL History
+  description: Retrieves a list of URLs shortened by a user.
   contact:
     name: Google
     url: https://google.com
