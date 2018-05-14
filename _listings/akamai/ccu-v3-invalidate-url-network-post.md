@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Invalidate by URL
+  description: Invalidate by URL
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Invalidate by URL
       operationId: ccuv3invalidateurlnetwork
       parameters:
-      - in: Enumeration
+      - in: query
         name: network
         description: The network on which you want to invalidate the URL, either production
           or staging
