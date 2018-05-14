@@ -22,7 +22,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/export-json-get.md
+- name: Go.USA.gov API Shortening a URL
+  description: Shortening a URL
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usa-gov-logo.png
+  humanURL: https://go.usa.gov
+  baseURL: https://go.usa.gov//api/
+  tags: URL
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/shorten-json-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/gousagov/shorten-json-get-postman.md
 x-common:
+- type: x-blog
+  url: https://go.usa.gov/blog
+- type: x-terms-of-service
+  url: http://www.usa.gov/About/developer-resources/terms-of-service.shtml
+- type: x-twitter
+  url: https://twitter.com/gousagov
+- type: x-website
+  url: https://go.usa.gov
 - type: x-blog
   url: https://go.usa.gov/blog
 - type: x-terms-of-service
