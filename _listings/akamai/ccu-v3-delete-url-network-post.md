@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Delete by URL
+  description: Delete by URL
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: Delete by URL
       operationId: ccuv3deleteurlnetwork
       parameters:
-      - in: Enumeration
+      - in: query
         name: network
         description: The network on which you want to delete the URL, either production
           or staging
