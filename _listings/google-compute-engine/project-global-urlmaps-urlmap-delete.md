@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Compute Engine
-  description: Creates and runs virtual machines on Google Cloud Platform.
+  title: Google Compute Engine API Delete URL Map
+  description: Deletes the specified UrlMap resource.
   contact:
     name: Google
     url: https://google.com
