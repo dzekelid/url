@@ -26,7 +26,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/history-hourly-station-station-get.md
+- name: Weatherbit Get Bulk History Hourly City & Country
+  description: Returns Historical Observations - Given a city in the format of City,ST
+    or City. The state, and country parameters can be provided to make the search
+    more accurate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
+  humanURL: https://www.weatherbit.io/api
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: URL
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-city-city-country-country-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/url/master/_listings/weatherbit/bulk-history-hourly-city-city-country-country-get-postman.md
 x-common:
+- type: x-blog
+  url: https://www.weatherbit.io/blog
+- type: x-contact-form
+  url: https://www.weatherbit.io/contact
+- type: x-documentation
+  url: https://www.weatherbit.io/api
+- type: x-github
+  url: https://github.com/weatherbit
+- type: x-pricing
+  url: https://www.weatherbit.io/pricing
+- type: x-twitter
+  url: https://twitter.com/weatherbitio
+- type: x-website
+  url: https://www.weatherbit.io/api
 - type: x-blog
   url: https://www.weatherbit.io/blog
 - type: x-contact-form
